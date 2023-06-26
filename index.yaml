@@ -24,6 +24,16 @@ entries:
   playgroundbot:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2023-06-26T14:14:08.774261425Z"
+    description: A Helm chart for the playground bot running on the gophers server
+    digest: d9d76f625b516532f0f55cd06dd0cd50a00dfeab08e58d15197b92847087c43a
+    name: playgroundbot
+    type: application
+    urls:
+    - https://github.com/discord-gophers/playgroundbot/releases/download/playgroundbot-0.0.6/playgroundbot-0.0.6.tgz
+    version: 0.0.6
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2023-06-26T14:08:16.531946727Z"
     description: A Helm chart for the playground bot running on the gophers server
     digest: b777282db24c4060e957ad81a57c5d138a4db99f7b8e9f352c6011a85587538e
@@ -32,4 +42,4 @@ entries:
     urls:
     - https://github.com/discord-gophers/playgroundbot/releases/download/playgroundbot-0.0.5/playgroundbot-0.0.5.tgz
     version: 0.0.5
-generated: "2023-06-26T14:08:16.531953528Z"
+generated: "2023-06-26T14:14:08.774271725Z"
