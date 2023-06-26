@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  dr-docso:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2023-06-26T13:59:26.906319904Z"
+    description: A Helm chart for dr-docso
+    digest: b07c010be18e73f11cee534afc2a1a9f9f3886743e13587201049c5930640268
+    name: dr-docso
+    type: application
+    urls:
+    - https://github.com/discord-gophers/playgroundbot/releases/download/dr-docso-0.0.3/dr-docso-0.0.3.tgz
+    version: 0.0.3
+generated: "2023-06-26T13:59:26.906324404Z"
