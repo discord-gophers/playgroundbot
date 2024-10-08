@@ -34,7 +34,11 @@ spec:
           - name: DISCORD_TOKEN
             valueFrom:
               secretKeyRef:
+              {{- if .Values.existingSecret }}
+                name: "{{ .Values.existingSecret }}"
+              {{- else }}
                 name: {{ include "playgroundbot.fullname" . }}
+              {{- end }}
                 key: token
           resources:
             {{- toYaml .Values.resources | nindent 12 }}

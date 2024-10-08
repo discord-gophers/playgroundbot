@@ -6,6 +6,9 @@ image:
 
 botToken: ""
 
+# an existing secret containing the token, otherwise one will be created
+existingSecret: ""
+
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
